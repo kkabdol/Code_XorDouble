@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		251A8E6017E0A5A900508B51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E5F17E0A5A900508B51 /* main.cpp */; };
 		251A8E6217E0A5A900508B51 /* XorDouble.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 251A8E6117E0A5A900508B51 /* XorDouble.1 */; };
+		251A8E7917E0A84F00508B51 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E6917E0A84F00508B51 /* dump.c */; };
+		251A8E7A17E0A84F00508B51 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E6A17E0A84F00508B51 /* error.c */; };
+		251A8E7B17E0A84F00508B51 /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E6B17E0A84F00508B51 /* hashtable.c */; };
+		251A8E7C17E0A84F00508B51 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E7017E0A84F00508B51 /* load.c */; };
+		251A8E7D17E0A84F00508B51 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E7117E0A84F00508B51 /* memory.c */; };
+		251A8E7E17E0A84F00508B51 /* pack_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E7217E0A84F00508B51 /* pack_unpack.c */; };
+		251A8E7F17E0A84F00508B51 /* strbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E7317E0A84F00508B51 /* strbuffer.c */; };
+		251A8E8017E0A84F00508B51 /* strconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E7517E0A84F00508B51 /* strconv.c */; };
+		251A8E8117E0A84F00508B51 /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E7617E0A84F00508B51 /* utf.c */; };
+		251A8E8217E0A84F00508B51 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 251A8E7817E0A84F00508B51 /* value.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +38,22 @@
 		251A8E5C17E0A5A900508B51 /* XorDouble */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XorDouble; sourceTree = BUILT_PRODUCTS_DIR; };
 		251A8E5F17E0A5A900508B51 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		251A8E6117E0A5A900508B51 /* XorDouble.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XorDouble.1; sourceTree = "<group>"; };
+		251A8E6917E0A84F00508B51 /* dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump.c; sourceTree = "<group>"; };
+		251A8E6A17E0A84F00508B51 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		251A8E6B17E0A84F00508B51 /* hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashtable.c; sourceTree = "<group>"; };
+		251A8E6C17E0A84F00508B51 /* hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		251A8E6D17E0A84F00508B51 /* jansson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson.h; sourceTree = "<group>"; };
+		251A8E6E17E0A84F00508B51 /* jansson_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_config.h; sourceTree = "<group>"; };
+		251A8E6F17E0A84F00508B51 /* jansson_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_private.h; sourceTree = "<group>"; };
+		251A8E7017E0A84F00508B51 /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		251A8E7117E0A84F00508B51 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
+		251A8E7217E0A84F00508B51 /* pack_unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pack_unpack.c; sourceTree = "<group>"; };
+		251A8E7317E0A84F00508B51 /* strbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strbuffer.c; sourceTree = "<group>"; };
+		251A8E7417E0A84F00508B51 /* strbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strbuffer.h; sourceTree = "<group>"; };
+		251A8E7517E0A84F00508B51 /* strconv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strconv.c; sourceTree = "<group>"; };
+		251A8E7617E0A84F00508B51 /* utf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf.c; sourceTree = "<group>"; };
+		251A8E7717E0A84F00508B51 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		251A8E7817E0A84F00508B51 /* value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +86,34 @@
 		251A8E5E17E0A5A900508B51 /* XorDouble */ = {
 			isa = PBXGroup;
 			children = (
+				251A8E6817E0A84F00508B51 /* jansson */,
 				251A8E5F17E0A5A900508B51 /* main.cpp */,
 				251A8E6117E0A5A900508B51 /* XorDouble.1 */,
 			);
 			path = XorDouble;
+			sourceTree = "<group>";
+		};
+		251A8E6817E0A84F00508B51 /* jansson */ = {
+			isa = PBXGroup;
+			children = (
+				251A8E6917E0A84F00508B51 /* dump.c */,
+				251A8E6A17E0A84F00508B51 /* error.c */,
+				251A8E6B17E0A84F00508B51 /* hashtable.c */,
+				251A8E6C17E0A84F00508B51 /* hashtable.h */,
+				251A8E6D17E0A84F00508B51 /* jansson.h */,
+				251A8E6E17E0A84F00508B51 /* jansson_config.h */,
+				251A8E6F17E0A84F00508B51 /* jansson_private.h */,
+				251A8E7017E0A84F00508B51 /* load.c */,
+				251A8E7117E0A84F00508B51 /* memory.c */,
+				251A8E7217E0A84F00508B51 /* pack_unpack.c */,
+				251A8E7317E0A84F00508B51 /* strbuffer.c */,
+				251A8E7417E0A84F00508B51 /* strbuffer.h */,
+				251A8E7517E0A84F00508B51 /* strconv.c */,
+				251A8E7617E0A84F00508B51 /* utf.c */,
+				251A8E7717E0A84F00508B51 /* utf.h */,
+				251A8E7817E0A84F00508B51 /* value.c */,
+			);
+			path = jansson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +168,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				251A8E6017E0A5A900508B51 /* main.cpp in Sources */,
+				251A8E7917E0A84F00508B51 /* dump.c in Sources */,
+				251A8E7A17E0A84F00508B51 /* error.c in Sources */,
+				251A8E7B17E0A84F00508B51 /* hashtable.c in Sources */,
+				251A8E7C17E0A84F00508B51 /* load.c in Sources */,
+				251A8E7D17E0A84F00508B51 /* memory.c in Sources */,
+				251A8E7E17E0A84F00508B51 /* pack_unpack.c in Sources */,
+				251A8E7F17E0A84F00508B51 /* strbuffer.c in Sources */,
+				251A8E8017E0A84F00508B51 /* strconv.c in Sources */,
+				251A8E8117E0A84F00508B51 /* utf.c in Sources */,
+				251A8E8217E0A84F00508B51 /* value.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,47 @@
 //
 
 #include <iostream>
+#include <cassert>
+#include "jansson.h"
+
+static long long g_Key = 0;
+static json_t* g_DoubleObj = NULL;
+double xorDouble(double val) {
+    assert(sizeof(double) == sizeof(long long));
+    union {
+        double x;
+        long long i;
+    } convert;
+    
+    convert.x = val;
+    convert.i ^= g_Key;
+    
+    return convert.x;
+}
+
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    srand(static_cast<int>(time(NULL)));
+    g_DoubleObj = json_real(1.5);
+    
+    long long count = 0;
+    while (1) {
+        g_Key = static_cast<long long>(lrand48());
+        
+        
+        
+        const double old = lrand48() / static_cast<double>(lrand48()+1);
+        const double result = xorDouble(xorDouble(old));
+        
+        assert(result == old);
+        
+        std::cout << count << " : " << old << std::endl;
+        ++count;
+    }
+    
+    json_decref(g_DoubleObj);
+    
     return 0;
 }
 
